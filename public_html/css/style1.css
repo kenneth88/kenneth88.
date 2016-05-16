@@ -19,8 +19,8 @@ body {
     color: #fff;
     text-decoration: none;
     position: absolute;
-    right: 800px;
-    top: 50px;
+    right: 790px;
+    top: 30px;
 }
 
 .cover-heading2 {
@@ -40,8 +40,8 @@ body {
     color: #fff;
     text-decoration: none;
     position: absolute;
-    right: 65px;
-    top: 50px;
+    right: 120px;
+    top: 30px;
 }
 
 .cover-heading3 {
@@ -62,7 +62,7 @@ body {
     text-decoration: none;
     position: absolute;
     right: 773px;
-    top: 400px;
+    top: 380px;
 }
 
 .cover-heading4 {
@@ -83,7 +83,7 @@ body {
     text-decoration: none;
     position: absolute;
     right: 65px;
-    top: 400px;
+    top: 380px;
 }
 
 h1 {
