@@ -29,6 +29,8 @@ and open the template in the editor.
                         <li><a href="home.html">Home</a></li> 
                         <li><a href="game.html">Game</a></li>
                         <li><a href="media.html">Media</a></li>
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="login.html">Login</a></li>
                     </ul>
                 </div>
             </nav>
@@ -40,7 +42,23 @@ and open the template in the editor.
                 </div>
             </div>
         </main>
+      <script id="blogs-template" type="text/x-handlebars-template">
+          {{#each posts}}
+            <div class="blog-post" style="transform: translate(30%, -20%);">
+                <h2 class="blog-post-title">{{title}}</h2>
+                <p class="blog-post-meta">On {{format created}} by {{authorEmail}}</p>
+                <div>{{content}}</div>
+                <div>{{content2}}</div>
+                <div>{{content3}}</div>
+            </div>
+                {{/each}}    
+        </script>
+      <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="libs/backendless.js"></script>
+      <script type="text/javascript" src="js/todolist.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
+      <script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
     </body>
 </html>

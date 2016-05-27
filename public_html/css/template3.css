@@ -19,10 +19,14 @@ div.main-background {
 
 p {
     text-align: center;
-    padding-bottom: 400px;
     font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
 }
 
 .middlething {
     margin-left: 5px;
+}
+
+.middler {
+    margin-left: 160px;
 }
